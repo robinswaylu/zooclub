@@ -14,13 +14,10 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+        The best NFT Tool <br className="sm:block hidden" />  
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+      Snatch underpriced assets straight from the chart. View rarity, trades and listings in realtime.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

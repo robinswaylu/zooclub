@@ -1,10 +1,9 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
+import bill from "./zoo/tech1.png";
 import binance from "./binance.png";
-import card from "./card.png";
+import card from "./zoo/redEnv.png";
 import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import dropbox from "./dropbox.png"; 
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -23,6 +22,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+
+//new
+
+import zooLand from "./zoo/hero.png"
+import logo from "./zoo/logo.png"
+import dividerLogo from "./zoo/dividerLogo.png"
 
 export {
   airbnb,
@@ -50,4 +55,6 @@ export {
   people01,
   people02,
   people03,
+  zooLand,
+  dividerLogo
 };

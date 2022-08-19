@@ -1,15 +1,16 @@
 import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { navLinks } from "../constants"; 
+import Button from "./Button";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+    <nav className="w-full flex py-6 justify-between items-center navbar relative z-[5]">
+      <img src={logo} alt="hoobank" className="w-[auto] h-[83px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -22,7 +23,9 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-      </ul>
+      </ul> 
+      <Button text="Connect Wallet " styles={`ml-10 hidden sm:flex cursor-pointer`} />
+
       {/* Mobile Nav Toggle */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
@@ -48,6 +51,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          
         </div>
       </div>
     </nav>

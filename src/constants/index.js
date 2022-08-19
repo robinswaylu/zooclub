@@ -16,30 +16,30 @@ export const navLinks = [
   {
     id: "clients",
     title: "Clients",
-  },
+  }, 
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Stacking Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The best NFT offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "All-in-one tool",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "All in one tools to discover, track, and analyze the trendiest NFT proejcts.  ",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "The Zoo Club NFT",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      " Owning a Red Envelope will grant you access to our private alpha club.",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "ACTIVE CONTRIBUTING MEMBERS",
+    value: "1860",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "VAULT TOTAL VALUE",
+    value: "$1700K+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "TOTAL NFT COLLECTED",
+    value: "127",
   },
 ];
 
