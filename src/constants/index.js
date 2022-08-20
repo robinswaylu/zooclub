@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, vault1, vault2, vault3, vault4, vault5, vault6, vault7 } from "../assets";
 
 export const navLinks = [
   {
@@ -16,7 +16,7 @@ export const navLinks = [
   {
     id: "clients",
     title: "Clients",
-  }, 
+  },
 ];
 
 export const features = [
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Zoo club is a great tool. It help me build a efficient process in sniping NFT.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Clone NFT Mod",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "The tool makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Founder of Doodle Sheep",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Sniped a BAYC thanks to Zoo Club. What more do you need to know?",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "NFT project Leader",
     img: people03,
   },
 ];
@@ -94,23 +94,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.zooclub.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.zooclub.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.zooclub.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.zooclub.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.zooclub.com/terms-and-services/",
       },
     ],
   },
@@ -119,23 +119,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.zooclub.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.zooclub.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.zooclub.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.zooclub.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.zooclub.com/newsletters/",
       },
     ],
   },
@@ -144,11 +144,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.zooclub.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.zooclub.com/become-a-partner/",
       },
     ],
   },
@@ -193,5 +193,44 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+
+export const vaultImg = [
+  {
+    id: 'vault1',
+    img: vault1,
+    alt: 'sheep nft 1324',
+  },
+  {
+    id: 'vault2',
+    img: vault2,
+    alt: 'goblin nft 224'
+  },
+  {
+    id: 'vault3',
+    img: vault3,
+    alt: 'bayc nft 312'
+  },
+  {
+    id: 'vault4',
+    img: vault4,
+    alt: 'mayc nft 6541'
+  },
+  {
+    id: 'vault5',
+    img: vault5,
+    alt: 'ghetto cat nft 9812'
+  },
+  {
+    id: 'vault6',
+    img: vault6,
+    alt: 'red env nft 102'
+  },
+  {
+    id: 'vault7',
+    img: vault7,
+    alt: 'doodle nft 907'
   },
 ];

@@ -25,9 +25,18 @@ import people03 from "./people03.png";
 
 //new
 
-import zooLand from "./zoo/hero.png"
-import logo from "./zoo/logo.png"
-import dividerLogo from "./zoo/dividerLogo.png"
+import zooLand from "./zoo/hero.png";
+import logo from "./zoo/logo.png";
+import dividerLogo from "./zoo/dividerLogo.png";
+import vault1 from "./zoo/vault1.png";
+import vault2 from "./zoo/vault2.png";
+import vault3 from "./zoo/vault3.png";
+import vault4 from "./zoo/vault4.png";
+import vault5 from "./zoo/vault5.png";
+import vault6 from "./zoo/vault6.png";
+import vault7 from "./zoo/vault7.png"; 
+import partners from "./zoo/partners.png"; 
+
 
 export {
   airbnb,
@@ -56,5 +65,13 @@ export {
   people02,
   people03,
   zooLand,
-  dividerLogo
+  dividerLogo,
+  vault1,
+  vault2,
+  vault3,
+  vault4,
+  vault5,
+  vault6,
+  vault7, 
+  partners
 };

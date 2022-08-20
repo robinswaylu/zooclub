@@ -185,3 +185,18 @@
     transform: translateX(0);
   }
 }
+
+.fadeinAnimation {
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+} 
+ 
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

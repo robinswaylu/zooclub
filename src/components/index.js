@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Divider from "./Divider";
 import About from "./About";
 import Newstats from "./Newstats";
+import Vault from "./Vault"; 
 
 export {
   Navbar,
@@ -25,5 +26,6 @@ export {
   Hero,
   Divider,
   About,
-  Newstats
+  Newstats,
+  Vault
 };
